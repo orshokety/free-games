@@ -1,0 +1,11 @@
+.game-details {
+  background: rgb(152 132 86 / 61%);
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+}
+.screenshot {
+  margin-top: 5px;
+  width: calc(50% - 10px);
+  margin-left: 10px;
+}

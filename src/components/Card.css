@@ -1,0 +1,55 @@
+.Game {
+  width: 280px;
+  margin: 10px;
+  height: 330px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #202020;
+  box-shadow: 4px 3px 8px 0px rgb(46, 34, 7);
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.Game:hover {
+  box-shadow: 4px 3px 11px 6px rgb(200 152 44);
+  transform: translateY(-3px);
+}
+
+.GameThumbContainer {
+  background-color: #000;
+  position: relative;
+  height: 172px;
+  color: #fff;
+  text-align: center;
+}
+
+.GameThumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 172px;
+}
+
+.GameDescription {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 157px;
+}
+
+.GameName {
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.GamePlatforms {
+  display: flex;
+}
+
+
